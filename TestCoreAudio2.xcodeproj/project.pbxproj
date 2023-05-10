@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		194222E629C7DFC70063DF42 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 194222E529C7DFC70063DF42 /* main.cpp */; };
+		194222EE29C7E6FB0063DF42 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194222ED29C7E6FB0063DF42 /* CoreAudio.framework */; };
+		194222F029C923000063DF42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194222EF29C923000063DF42 /* Foundation.framework */; };
+		19A9B1EB29C99B880012880E /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A9B1EA29C99B880012880E /* AudioUnit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		194222E229C7DFC70063DF42 /* TestCoreAudio2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestCoreAudio2; sourceTree = BUILT_PRODUCTS_DIR; };
 		194222E529C7DFC70063DF42 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		194222ED29C7E6FB0063DF42 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		194222EF29C923000063DF42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19A9B1EA29C99B880012880E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A9B1EB29C99B880012880E /* AudioUnit.framework in Frameworks */,
+				194222F029C923000063DF42 /* Foundation.framework in Frameworks */,
+				194222EE29C7E6FB0063DF42 /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +52,7 @@
 			children = (
 				194222E429C7DFC70063DF42 /* TestCoreAudio2 */,
 				194222E329C7DFC70063DF42 /* Products */,
+				194222EC29C7E6FB0063DF42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +70,16 @@
 				194222E529C7DFC70063DF42 /* main.cpp */,
 			);
 			path = TestCoreAudio2;
+			sourceTree = "<group>";
+		};
+		194222EC29C7E6FB0063DF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19A9B1EA29C99B880012880E /* AudioUnit.framework */,
+				194222EF29C923000063DF42 /* Foundation.framework */,
+				194222ED29C7E6FB0063DF42 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
